@@ -6,7 +6,7 @@
 
 \pagestyle{fancy}
 \fancyhf{}
-\chead{F´ısica Experimental II • Experimento realizado em 12/05/2023}
+\chead{Física Experimental II • Experimento realizado em 12/05/2023}
 \rfoot{\thepage}
 \renewcommand{\headrulewidth}{0.4pt}
 
@@ -29,24 +29,66 @@
     \section{Metodologia}
     A metodologia utilizada visou determinar a densidade
     de um cilindro contendo um furo circular no centro de
-    sua base, por meio de trˆes modelos experimentais distintos.
+    sua base, por meio de três modelos experimentais distintos.
     \subsection{Modelo 1}
     O primeiro modelo adotado foi: 
 
     \begin{equation}
-        \rho = \frac{m}{V}
-    \end{equation} no qual {m} representa a massa do sólido, determinada diretamente utilizando uma balança semi-analítica de resolução 1g e {V} 
+        \rho_1 = \frac{m}{V},
+    \end{equation} no qual $m$ representa a massa do sólido, determinada diretamente utilizando uma balança semi-analítica de resolução 1g e $V$
     representa o volume de água deslocada quando o cilindro é inserido em um béquer graduado com resolução de 5mL
 
-    \subsection{Subseção 1.2}
-    Este é o conteúdo da Subseção 1.2.
-    
-    \section{Seção 2}
-    Este é o conteúdo da Seção 2.
-    
-    \subsection{Subseção 2.1}
-    Este é o conteúdo da Subseção 2.1.
-    
+    \subsection{Modelo 2}
+    O terceiro modelo adotado foi:  
+    \begin{equation}
+        \rho_3 = \frac{m}{m_a} \rho a,
+    \end{equation}  no qual $m$ e $m_{\text{a}}$ representam a massa do sólido e a massa de água contida no béquer, respectivamente, determinadas diretamente utilizando uma balança semianalítica de resolução 1 g. $\rho_{a}$ representa o valor da densidade da água, que é obtida como a razão entre sua massa e seu volume.
+
+    \begin{equation}
+        \rho(m, V) = \frac{m}{V}
+        \end{equation}
+        O valor de referência da densidade da água é 1 g/cm\(^3\).
+
+Neste modelo, estamos substituindo a medição direta do volume de água deslocado quando o sólido é inserido no béquer pela medição direta da respectiva massa de água deslocada quando diferentes sólidos são inseridos no béquer.
+
+     \subsection{Modelo 3}
+        O segundo modelo adotado foi:
+        \begin{equation}
+            \rho_2 = \frac{4m}{\pi(d_{e}^2 - d_{i}^2)h}
+            \end{equation}
+            No qual \(m\) representa a massa do sólido, determinada diretamente utilizando uma balança semi-analítica de resolução 1 g, \(h\) representa a altura do cilindro, e \(d_e\) e \(d_i\) representam seus diâmetros externo e interno, respectivamente. As medições de \(h\), \(d_e\), e \(d_i\) foram realizadas utilizando um paquímetro de resolução 0,05 mm.
+
+
+    \section{Determinação da densidade da água}
+    A densidade da água foi obtida como a razão entre sua massa e seu volume:
+    \begin{equation}
+    \rho(m, V) = \frac{m}{V}
+    \end{equation}
+    Usando a balança e o béquer, obteve-se os seguintes resultados de medição:
+    \begin{equation}
+        m = (248,00 \pm 0,58) \text{g e } V = (250,0 \pm 2,9) \, \text{cm}^3
+    \end{equation}  A incerteza deste modelo de medição é dada por:
+
+    \begin{align*}
+        u_{\rho} &= \sqrt{\left(\frac{\partial \rho}{\partial m}\right)^2 \sigma^2_m + \left(\frac{\partial \rho}{\partial V}\right)^2 \sigma^2_V} \\
+        &= \sqrt{\left(\frac{1}{\overline{V}}\right)^2 \sigma^2_m + \left(\frac{-\overline{m}}{\overline{V}^2}\right)^2 \sigma^2_V} \\
+        &= \frac{\overline{m}}{\overline{V}} \sqrt{\left(\frac{\sigma_m}{\overline{m}}\right)^2 + \left(\frac{\sigma_V}{\overline{V}}\right)^2} \\
+        &= \frac{248}{250} \sqrt{\left(\frac{0.58}{248}\right)^2 + \left(\frac{2.9}{250}\right)^2} \\
+        &\approx 0.01168511303610994 \\
+        &\approx 0.012 \, \text{g/cm}^3.
+        \end{align*}
+        
+        Logo, o valor principal será:
+\begin{equation}
+\rho_{\text{média}} = \frac{\overline{m}}{\overline{V}} = 0.992 \, \text{g/cm}^3.
+\end{equation}
+
+Finalmente:
+\begin{equation}
+\rho = (0.992 \pm 0.012) \, \text{g/cm}^3.
+\end{equation}
+
+        
     \subsection{Subseção 2.2}
     Este é o conteúdo da Subseção 2.2.
     

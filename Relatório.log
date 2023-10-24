@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.10.23)  24 OCT 2023 11:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.10.23)  24 OCT 2023 12:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -238,18 +238,18 @@ LaTeX Font Info:    ... okay on input line 13.
 
 ] (/home/matheus/Documentos/LateX docs/Determinação_da_densidade_de_um_sólido/Relatório.aux) ) 
 Here is how much of TeX's memory you used:
- 1907 strings out of 481232
- 27861 string characters out of 5915106
- 313911 words of memory out of 5000000
- 18888 multiletter control sequences out of 15000+600000
+ 1906 strings out of 481232
+ 27826 string characters out of 5915106
+ 327909 words of memory out of 5000000
+ 18887 multiletter control sequences out of 15000+600000
  406343 words of font info for 37 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 68i,10n,74p,286b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/matheus/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on "/home/matheus/Documentos/LateX docs/Determinação_da_densidade_de_um_sólido/Relatório.pdf" (1 page, 51797 bytes).
+ 68i,11n,74p,480b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/matheus/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on "/home/matheus/Documentos/LateX docs/Determinação_da_densidade_de_um_sólido/Relatório.pdf" (1 page, 90124 bytes).
 PDF statistics:
- 30 PDF objects out of 1000 (max. 8388607)
- 20 compressed objects within 1 object stream
+ 45 PDF objects out of 1000 (max. 8388607)
+ 32 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

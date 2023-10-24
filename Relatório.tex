@@ -1,8 +1,9 @@
 \documentclass{article}
 \usepackage{fancyhdr}
 \usepackage{multicol}
-\usepackage[margin=1in]{geometry} % Ajuste as margens aqui
-\usepackage{amsmath} % Pacote para fórmulas matemáticas
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{siunitx}  % For consistent unit formatting
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -12,99 +13,199 @@
 
 \begin{document}
 
-\begin{center} % Inicia um ambiente de alinhamento central
-    \huge % Define o tamanho da fonte como "Huge" (enorme)
-    \textbf{Determinação da densidade de um sólido} 
+\begin{center}
+    \huge
+    \textbf{Determinação da densidade de um sólido}
     \normalsize
     \vspace{10pt}
-    \\
+
     Matheus Aparecido Souza Silva, João Vitor Costa, Isabela Santana, Gustavo Pereira
-    \\
     \vspace{5pt}
-    \textbf{Turma}: TA \textbf{Horário}: 6M23  \textbf{Curso}: Engenharia Elétrica
-\end{center} 
 
-\begin{multicols*}{2} % Inicia o ambiente de duas colunas, permitindo a quebra de página
+    \textbf{Turma}: TA \textbf{Horário}: 6M23 \textbf{Curso}: Engenharia Elétrica
+\end{center}
 
-    \section{Metodologia}
-    A metodologia utilizada visou determinar a densidade
-    de um cilindro contendo um furo circular no centro de
-    sua base, por meio de três modelos experimentais distintos.
-    \subsection{Modelo 1}
-    O primeiro modelo adotado foi: 
+\begin{multicols}{2}
 
-    \begin{equation}
-        \rho_1 = \frac{m}{V},
-    \end{equation} no qual $m$ representa a massa do sólido, determinada diretamente utilizando uma balança semi-analítica de resolução 1g e $V$
-    representa o volume de água deslocada quando o cilindro é inserido em um béquer graduado com resolução de 5mL
+\section{Metodologia}
 
-    \subsection{Modelo 2}
-    O terceiro modelo adotado foi:  
-    \begin{equation}
-        \rho_3 = \frac{m}{m_a} \rho a,
-    \end{equation}  no qual $m$ e $m_{\text{a}}$ representam a massa do sólido e a massa de água contida no béquer, respectivamente, determinadas diretamente utilizando uma balança semianalítica de resolução 1 g. $\rho_{a}$ representa o valor da densidade da água, que é obtida como a razão entre sua massa e seu volume.
+A metodologia utilizada visou determinar a densidade de um cilindro contendo um furo circular no centro de sua base, por meio de três modelos experimentais distintos.
 
-    \begin{equation}
-        \rho(m, V) = \frac{m}{V}
-        \end{equation}
-        O valor de referência da densidade da água é 1 g/cm\(^3\).
+\subsection{Modelo 1}
+O primeiro modelo adotado foi:
 
-Neste modelo, estamos substituindo a medição direta do volume de água deslocado quando o sólido é inserido no béquer pela medição direta da respectiva massa de água deslocada quando diferentes sólidos são inseridos no béquer.
+\begin{align}
+\rho_1 &= \frac{m}{V},
+\end{align}
 
-     \subsection{Modelo 3}
-        O segundo modelo adotado foi:
-        \begin{equation}
-            \rho_2 = \frac{4m}{\pi(d_{e}^2 - d_{i}^2)h}
-            \end{equation}
-            No qual \(m\) representa a massa do sólido, determinada diretamente utilizando uma balança semi-analítica de resolução 1 g, \(h\) representa a altura do cilindro, e \(d_e\) e \(d_i\) representam seus diâmetros externo e interno, respectivamente. As medições de \(h\), \(d_e\), e \(d_i\) foram realizadas utilizando um paquímetro de resolução 0,05 mm.
+onde $m$ representa a massa do sólido, determinada diretamente utilizando uma balança semi-analítica de resolução 1 g e $V$ representa o volume de água deslocada quando o cilindro é inserido em um béquer graduado com resolução de 5 mL.
 
+\subsection{Modelo 2}
+O terceiro modelo adotado foi:
 
-    \section{Determinação da densidade da água}
-    A densidade da água foi obtida como a razão entre sua massa e seu volume:
-    \begin{equation}
-    \rho(m, V) = \frac{m}{V}
-    \end{equation}
-    Usando a balança e o béquer, obteve-se os seguintes resultados de medição:
-    \begin{equation}
-        m = (248,00 \pm 0,58) \text{g e } V = (250,0 \pm 2,9) \, \text{cm}^3
-    \end{equation}  A incerteza deste modelo de medição é dada por:
+\begin{align}
+\rho_3 &= \frac{m}{m_a} \rho_a,
+\end{align}
 
-    \begin{align*}
-        u_{\rho} &= \sqrt{\left(\frac{\partial \rho}{\partial m}\right)^2 \sigma^2_m + \left(\frac{\partial \rho}{\partial V}\right)^2 \sigma^2_V} \\
-        &= \sqrt{\left(\frac{1}{\overline{V}}\right)^2 \sigma^2_m + \left(\frac{-\overline{m}}{\overline{V}^2}\right)^2 \sigma^2_V} \\
-        &= \frac{\overline{m}}{\overline{V}} \sqrt{\left(\frac{\sigma_m}{\overline{m}}\right)^2 + \left(\frac{\sigma_V}{\overline{V}}\right)^2} \\
-        &= \frac{248}{250} \sqrt{\left(\frac{0.58}{248}\right)^2 + \left(\frac{2.9}{250}\right)^2} \\
-        &\approx 0.01168511303610994 \\
-        &\approx 0.012 \, \text{g/cm}^3.
-        \end{align*}
-        
-        Logo, o valor principal será:
+onde $m$ e $m_a$ representam a massa do sólido e a massa de água contida no béquer, respectivamente, determinadas diretamente utilizando uma balança semianalítica de resolução 1 g. $\rho_a$ representa o valor da densidade da água, que é obtida como a razão entre sua massa e seu volume.
+
 \begin{equation}
-\rho_{\text{média}} = \frac{\overline{m}}{\overline{V}} = 0.992 \, \text{g/cm}^3.
+\rho(m, V) = \frac{m}{V}
 \end{equation}
+
+O valor de referência da densidade da água é \SI{1}{\gram\per\centi\meter\cubed}. Neste modelo, estamos substituindo a medição direta do volume de água deslocado quando o sólido é inserido no béquer pela medição direta da respectiva massa de água deslocada quando diferentes sólidos são inseridos no béquer.
+
+\subsection{Modelo 3}
+O segundo modelo adotado foi:
+
+\begin{align}
+\rho_2 &= \frac{4m}{\pi(d_e^2 - d_i^2)h},
+\end{align}
+
+onde $m$ representa a massa do sólido, determinada diretamente utilizando uma balança semi-analítica de resolução 1 g, $h$ representa a altura do cilindro, e $d_e$ and $d_i$ representam seus diâmetros externo e interno, respectivamente. As medições de $h$, $d_e$, e $d_i$ foram realizadas utilizando um paquímetro de resolução 0.05 mm.
+
+\section{Determinação da densidade da água}
+A densidade da água foi obtida como a razão entre sua massa e seu volume:
+
+\begin{align}
+\rho(m, V) &= \frac{m}{V}
+\end{align}
+
+Usando a balança e o béquer, obtiveram-se os seguintes resultados de medição:
+
+\begin{align}
+m &= (248.00 \pm 0.58) \, \text{g e } V = (250.0 \pm 2.9) \, \text{cm}^3
+\end{align}
+
+A incerteza deste modelo de medição é dada por:
+
+\begin{align}
+u_{\rho} &= \sqrt{\left(\frac{\partial \rho}{\partial m}\right)^2 \sigma^2_m + \left(\frac{\partial \rho}{\partial V}\right)^2 \sigma^2_V} \\
+&= \sqrt{\left(\frac{1}{\overline{V}}\right)^2 \sigma^2_m + \left(\frac{-\overline{m}}{\overline{V}^2}\right)^2 \sigma^2_V} \nonumber \\
+&= \frac{\overline{m}}{\overline{V}} \sqrt{\left(\frac{\sigma_m}{\overline{m}}\right)^2 + \left(\frac{\sigma_V}{\overline{V}}\right)^2} \nonumber \\
+&= \frac{248}{250} \sqrt{\left(\frac{0.58}{248}\right)^2 + \left(\frac{2.9}{250}\right)^2} \nonumber \\
+&\approx 0.0117 \nonumber
+\end{align}
+
+Logo, o valor principal será:
+
+\begin{align}
+\rho_{\text{média}} &= \frac{\overline{m}}{\overline{V}} = 0.992 \, \text{g/cm}^3.
+\end{align}
 
 Finalmente:
-\begin{equation}
-\rho = (0.992 \pm 0.012) \, \text{g/cm}^3.
-\end{equation}
 
-        
-    \subsection{Modelo 1}
-    Os valores encontrados para a massa \(m\) e o volume \(V\) referentes ao primeiro modelo experimental foram:
-    \begin{equation}
-    m = (50,00 \pm 0,58) \, \text{g} \quad \text{e} \quad V = (5,0 \pm 2,9) \, \text{cm}^3. \tag{9}
-    \end{equation}
-    
-    Para ambas as medições, o teste de flutuação de resultados indicou incertezas do tipo B. Assumindo distribuições de probabilidades retangulares para as duas medições, as incertezas foram calculadas de acordo com as expressões:
-    \begin{equation}
-    u_m = \frac{\Delta_{rb}}{\sqrt{3}} \quad \text{e} \quad u_V = \frac{\Delta_{rq}}{\sqrt{3}}. \tag{10}
-    \end{equation}
-    
-    Onde \(\Delta_{rb}\) e \(\Delta_{rq}\) representam as resoluções da balança e do béquer, respectivamente. A resolução da balança é \(\Delta_{rb} = 1,0\) g e a do béquer é \(\Delta_{rq} = 5\) ml, assim:
-    \begin{equation}
-    u_m = \frac{1}{\sqrt{3}} = 0,58 \, \text{g} \quad \text{e} \quad u_V = \frac{5}{\sqrt{3}} = 2,9 \, \text{cm}^3. \tag{11}
-    \end{equation}
-        
-    \end{multicols*} % Fecha o ambiente de duas colunas
-    
-    \end{document}
+\begin{align}
+\rho &= (0.992 \pm 0.0117) \, \text{g/cm}^3.
+\end{align}
+
+\subsection{Modelo 1}
+Os valores encontrados para a massa $m$ e o volume $V$ referentes ao primeiro modelo experimental foram:
+
+\begin{align}
+m &= (50.00 \pm 0.58) \, \text{g} \quad \text{e} \quad V = (5.0 \pm 2.9) \, \text{cm}^3.
+\end{align}
+
+Para ambas as medições, o teste de flutuação de resultados indicou incertezas do tipo B. Assumindo distribuições de probabilidades retangulares para as duas medições, as incertezas foram calculadas de acordo com as expressões:
+
+\begin{align}
+u_m &= \frac{\Delta_{rb}}{\sqrt{3}} \quad \text{e} \quad u_V = \frac{\Delta_{rq}}{\sqrt{3}}.
+\end{align}
+
+Onde $\Delta_{rb}$ e $\Delta_{rq}$ representam as resoluções da balança e do béquer, respectivamente. A resolução da balança é \SI{1}{\gram} e a do béquer é \SI{5}{\milli\liter}, assim:
+
+\begin{align}
+u_m &= \frac{1.0}{\sqrt{3}} = 0.58 \, \text{g} \quad \text{e} \quad u_V = \frac{5.0}{\sqrt{3}} = 2.9 \, \text{cm}^3.
+\end{align}
+
+Desta maneira, encontramos:
+
+\begin{align}
+\rho_1 &= \frac{m}{V} = (10.0 \pm 5.8) \, \text{g/cm}^3.
+\end{align}
+
+Onde a incerteza associada a $\rho_1$, $u_{\rho_1}$, foi determinada utilizando a expressão:
+
+\begin{align}
+u_{\rho_1} &= \frac{\overline{m}}{\overline{V}} \sqrt{\left(\frac{\sigma_m}{\overline{m}}\right)^2 + \left(\frac{\sigma_V}{\overline{V}}\right)^2} = 5.8.
+\end{align}
+
+\subsection{Modelo 2}
+
+Para o segundo modelo experimental, encontramos os seguintes pares $m-m_a$ como resultados das medições:
+
+\begin{align*}
+(50.00 \pm 0.58) \, \text{g} & \quad (6.00 \pm 0.58) \, \text{g} \\
+(100.00 \pm 0.58) \, \text{g} & \quad (12.00 \pm 0.58) \, \text{g} \\
+(150.00 \pm 0.58) \, \text{g} & \quad (18.00 \pm 0.58) \, \text{g} \\
+(200.00 \pm 0.58) \, \text{g} & \quad (24.00 \pm 0.58) \, \text{g} \\
+(250.00 \pm 0.58) \, \text{g} & \quad (30.00 \pm 0.58) \, \text{g} \\
+(300.00 \pm 0.58) \, \text{g} & \quad (36.00 \pm 0.58) \, \text{g}
+\end{align*}
+
+Os quais nos fornecem os seguintes resultados para a densidade $\rho_2$:
+
+\begin{align*}
+(8.33 \pm 0.81) \, \text{g/cm}^3 \\
+(8.33 \pm 0.41) \, \text{g/cm}^3 \\
+(8.33 \pm 0.27) \, \text{g/cm}^3 \\
+(8.33 \pm 0.20) \, \text{g/cm}^3 \\
+(8.33 \pm 0.16) \, \text{g/cm}^3 \\
+(8.33 \pm 0.14) \, \text{g/cm}^3
+\end{align*}
+
+Onde a incerteza associada a cada valor encontrado para $\rho_2$, $u_{\rho_2}$, foi determinada utilizando a expressão:
+
+\begin{align}
+u_{\rho_2} &= \sqrt{\left(\frac{\rho_a}{m_a}\right)^2 u^2_m + \left(\frac{-m\rho_a}{m^2_a}\right)^2 u^2_{m_a}}.
+\end{align}
+
+Vale ressaltar que para todas as medições dos pares $m-ma$, o teste de flutuação de resultados indicou incertezas do tipo B, e assumindo distribuições de probabilidades retangulares para as medições, as incertezas foram calculadas de acordo com a expressão:
+
+\begin{align}
+u_m &= u_{ma} = \frac{\Delta_{rb}}{\sqrt{3}}.
+\end{align}
+
+Onde $\Delta_{rb}$ representa a resolução da balança utilizada. Como todos os valores encontrados para $\rho_2$ são compatíveis entre si, podemos combiná-los usando uma média ponderada para obter:
+
+\begin{align}
+\rho_2 &= \frac{m\rho_a}{m_a} = (8.333 \pm 0.086) \, \text{g/cm}^3.
+\end{align}
+
+\subsection{Modelo 3}
+
+Para o terceiro modelo experimental, encontramos como resultados das medições:
+
+\begin{align*}
+m &= (50.00 \pm 0.58) \, \text{g} \\
+h &= (7.800 \pm 0.029) \, \text{mm} \\
+d_e &= (33.950 \pm 0.029) \, \text{mm} \\
+d_i &= (3.400 \pm 0.029) \, \text{mm}
+\end{align*}
+
+Para todas as medições, o teste de flutuação de resultados indicou incertezas do tipo B. Assumindo distribuições de probabilidades retangulares para as medições, as incertezas foram calculadas de acordo com as expressões:
+
+\begin{align}
+u_m &= \frac{\Delta_{rb}}{\sqrt{3}}, \quad u_h = u_{de} = u_{di} = \frac{\Delta_{rp}}{\sqrt{3}}.
+\end{align}
+
+Onde $\Delta_{rb}$ and $\Delta_{rp}$ representam as resoluções da balança and do paquímetro, respectivamente. Desta maneira, encontramos:
+
+\begin{align}
+\rho_3 &= \frac{4m}{\pi (d^2_e - d^2_i)h} = (7.15 \pm 0.64) \, \text{g/cm}^3
+\end{align}
+
+\subsection{Análise de compatibilidade}
+
+Finalmente, como os valores encontrados para $\rho_1$, $\rho_2$ e $\rho_3$ são compatíveis entre si, podemos combiná-los usando uma média ponderada para obter:
+
+\begin{align}
+\rho &= (8.309 \pm 0.085) \, \text{g/cm}^3
+\end{align}
+
+\section{Conclusões}
+Com base na análise de dados, pode-se concluir que os três modelos experimentais foram satisfatórios para a determinação da densidade do cilindro, uma vez que os valores encontrados são compatíveis entre si. Ao combinarmos os valores obtidos e consultarmos a tabela de densidades fornecida na apostila, identificamos o material do cilindro como sendo latão recozido, $\rho_{\text{ref}} = 8.4$. Contudo, ao analisarmos individualmente cada resultado, encontramos erros relativos de 19.0%, 15.0% e 1.1% para cada modelo, respectivamente. Isso sugere maior efetividade do terceiro modelo, quando utilizamos instrumentos de medição com as resoluções descritas acima.
+
+\end{multicols}
+
+\end{document}

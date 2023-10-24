@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.10.23)  24 OCT 2023 13:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.10.24)  24 OCT 2023 14:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -178,27 +178,87 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
-) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+) (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-01-09 L3 programming layer (loader) 
+ (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count276
 \l__pdf_internal_box=\box95
-) (/home/matheus/Documentos/LateX docs/Relatorio_1-F2/Relatório.aux)
+)) (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-10-27 L3 Experimental document command parser
+ (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex))
+Package: siunitx 2020/02/25 v2.8b A comprehensive (SI) units package
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen165
+\ar@mcellbox=\box96
+\extrarowheight=\dimen166
+\NC@list=\toks22
+\extratabsurround=\skip63
+\backup@length=\skip64
+\ar@cellbox=\box97
+) (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2020-10-27 LaTeX2e option processing using LaTeX3 keys
+)
+\l__siunitx_tmp_box=\box98
+\l__siunitx_tmp_dim=\dimen167
+\l__siunitx_tmp_int=\count277
+\l__siunitx_number_mantissa_length_int=\count278
+\l__siunitx_number_uncert_length_int=\count279
+\l__siunitx_round_int=\count280
+\l__siunitx_process_decimal_int=\count281
+\l__siunitx_process_uncertainty_int=\count282
+\l__siunitx_process_fixed_int=\count283
+\l__siunitx_process_integer_min_int=\count284
+\l__siunitx_process_precision_int=\count285
+\l__siunitx_group_min_int=\count286
+\l__siunitx_angle_marker_box=\box99
+\l__siunitx_angle_unit_box=\box100
+\l__siunitx_angle_marker_dim=\dimen168
+\l__siunitx_angle_unit_dim=\dimen169
+\l__siunitx_unit_int=\count287
+\l__siunitx_unit_denominator_int=\count288
+\l__siunitx_unit_numerator_int=\count289
+\l__siunitx_unit_prefix_int=\count290
+\l__siunitx_unit_prefix_base_int=\count291
+\l__siunitx_unit_prefix_gram_int=\count292
+\l__siunitx_number_product_int=\count293
+\c__siunitx_one_fill_skip=\skip65
+\l__siunitx_table_unit_align_skip=\skip66
+\l__siunitx_table_exponent_dim=\dimen170
+\l__siunitx_table_integer_dim=\dimen171
+\l__siunitx_table_mantissa_dim=\dimen172
+\l__siunitx_table_marker_dim=\dimen173
+\l__siunitx_table_result_dim=\dimen174
+\l__siunitx_table_uncert_dim=\dimen175
+\l__siunitx_table_fill_pre_dim=\dimen176
+\l__siunitx_table_fill_post_dim=\dimen177
+\l__siunitx_table_fill_mid_dim=\dimen178
+\l__siunitx_table_pre_box=\box101
+\l__siunitx_table_post_box=\box102
+\l__siunitx_table_mantissa_box=\box103
+\l__siunitx_table_result_box=\box104
+\l__siunitx_table_number_align_skip=\skip67
+\l__siunitx_table_text_align_skip=\skip68
+ (/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2020-08-03 v1.12c Easy translation of strings in LaTeX
+)) (/home/matheus/Documentos/LateX docs/Relatorio_1-F2/Relatório.aux)
 \openout1 = `Relatório.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -234,22 +294,26 @@ LaTeX Font Info:    ... okay on input line 13.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
+File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
+) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-] [2] (/home/matheus/Documentos/LateX docs/Relatorio_1-F2/Relatório.aux) ) 
+] [2] [3] (/home/matheus/Documentos/LateX docs/Relatorio_1-F2/Relatório.aux) ) 
 Here is how much of TeX's memory you used:
- 1905 strings out of 481232
- 27575 string characters out of 5915106
- 328909 words of memory out of 5000000
- 18886 multiletter control sequences out of 15000+600000
- 406343 words of font info for 37 fonts, out of 8000000 for 9000
- 16 hyphenation exceptions out of 8191
- 68i,11n,74p,453b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/matheus/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "/home/matheus/Documentos/LateX docs/Relatorio_1-F2/Relatório.pdf" (2 pages, 92737 bytes).
+ 4355 strings out of 481159
+ 97116 string characters out of 5913524
+ 391752 words of memory out of 5000000
+ 21312 multiletter control sequences out of 15000+600000
+ 407752 words of font info for 43 fonts, out of 8000000 for 9000
+ 61 hyphenation exceptions out of 8191
+ 68i,12n,75p,759b,902s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/matheus/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on "/home/matheus/Documentos/LateX docs/Relatorio_1-F2/Relatório.pdf" (3 pages, 120742 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 34 compressed objects within 1 object stream
+ 63 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

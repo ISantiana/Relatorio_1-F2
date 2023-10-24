@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.10.23)  24 OCT 2023 13:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.10.23)  24 OCT 2023 13:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/matheus/Documentos/LateX docs/Determinação da densidade de um sólido/Relatório.tex"
-(/home/matheus/Documentos/LateX docs/Determinação da densidade de um sólido/Relatório.tex
+**"/home/matheus/Documentos/LateX docs/Relatorio_1-F2/Relatório.tex"
+(/home/matheus/Documentos/LateX docs/Relatorio_1-F2/Relatório.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-01-09> xparse <2020-03-03> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -182,7 +182,7 @@ LaTeX Info: Redefining \] on input line 2924.
 File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count276
 \l__pdf_internal_box=\box95
-) (/home/matheus/Documentos/LateX docs/Determinação da densidade de um sólido/Relatório.aux)
+) (/home/matheus/Documentos/LateX docs/Relatorio_1-F2/Relatório.aux)
 \openout1 = `Relatório.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -236,20 +236,20 @@ LaTeX Font Info:    ... okay on input line 13.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-] (/home/matheus/Documentos/LateX docs/Determinação da densidade de um sólido/Relatório.aux) ) 
+] [2] (/home/matheus/Documentos/LateX docs/Relatorio_1-F2/Relatório.aux) ) 
 Here is how much of TeX's memory you used:
- 1906 strings out of 481232
- 27826 string characters out of 5915106
- 326909 words of memory out of 5000000
- 18887 multiletter control sequences out of 15000+600000
+ 1905 strings out of 481232
+ 27575 string characters out of 5915106
+ 328909 words of memory out of 5000000
+ 18886 multiletter control sequences out of 15000+600000
  406343 words of font info for 37 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 68i,11n,74p,480b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,11n,74p,453b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/matheus/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "/home/matheus/Documentos/LateX docs/Determinação da densidade de um sólido/Relatório.pdf" (1 page, 89752 bytes).
+Output written on "/home/matheus/Documentos/LateX docs/Relatorio_1-F2/Relatório.pdf" (2 pages, 92737 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
+ 48 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

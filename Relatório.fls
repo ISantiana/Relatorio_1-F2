@@ -1,10 +1,10 @@
-PWD /home/matheus/Documentos/LateX docs/Determinação da densidade de um sólido
+PWD /home/matheus/Documentos/LateX docs/Relatorio_1-F2
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/matheus/Documentos/LateX docs/Determinação da densidade de um sólido/Relatório.tex
-OUTPUT /home/matheus/Documentos/LateX docs/Determinação da densidade de um sólido/Relatório.log
+INPUT /home/matheus/Documentos/LateX docs/Relatorio_1-F2/Relatório.tex
+OUTPUT /home/matheus/Documentos/LateX docs/Relatorio_1-F2/Relatório.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -156,10 +156,10 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT /home/matheus/Documentos/LateX docs/Determinação da densidade de um sólido/Relatório.aux
-INPUT /home/matheus/Documentos/LateX docs/Determinação da densidade de um sólido/Relatório.aux
-INPUT /home/matheus/Documentos/LateX docs/Determinação da densidade de um sólido/Relatório.aux
-OUTPUT /home/matheus/Documentos/LateX docs/Determinação da densidade de um sólido/Relatório.aux
+INPUT /home/matheus/Documentos/LateX docs/Relatorio_1-F2/Relatório.aux
+INPUT /home/matheus/Documentos/LateX docs/Relatorio_1-F2/Relatório.aux
+INPUT /home/matheus/Documentos/LateX docs/Relatorio_1-F2/Relatório.aux
+OUTPUT /home/matheus/Documentos/LateX docs/Relatorio_1-F2/Relatório.aux
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
@@ -170,9 +170,9 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
-OUTPUT /home/matheus/Documentos/LateX docs/Determinação da densidade de um sólido/Relatório.pdf
+OUTPUT /home/matheus/Documentos/LateX docs/Relatorio_1-F2/Relatório.pdf
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-INPUT /home/matheus/Documentos/LateX docs/Determinação da densidade de um sólido/Relatório.aux
+INPUT /home/matheus/Documentos/LateX docs/Relatorio_1-F2/Relatório.aux
 INPUT /home/matheus/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb

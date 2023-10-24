@@ -1,9 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1698169744 "/home/matheus/Documentos/LateX docs/Relatorio_1-F2/Relatório.tex" "/home/matheus/Documentos/LateX docs/Relatorio_1-F2/Relatório.pdf" "Relatório" 1698169744
+["pdflatex"] 1698170622 "/home/matheus/Documentos/LateX docs/Relatorio_1-F2/Relatório.tex" "/home/matheus/Documentos/LateX docs/Relatorio_1-F2/Relatório.pdf" "Relatório" 1698170623
   "/etc/texmf/web2c/texmf.cnf" 1685207660 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/matheus/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk" 1698114519 11524 668cd98a04e79d35273138557411f285 ""
-  "/home/matheus/Documentos/LateX docs/Relatorio_1-F2/Relatório.aux" 1698169744 1080 61759d02938f8ccecaa09b1b4678d339 ""
-  "/home/matheus/Documentos/LateX docs/Relatorio_1-F2/Relatório.tex" 1698169743 8748 4023b56d749c6d0c9a06cdb530cb8868 ""
+  "/home/matheus/Documentos/LateX docs/Relatorio_1-F2/Relatório.aux" 1698170623 1183 0376b5ce3ca1487f3d3c0b8d5c21375d ""
+  "/home/matheus/Documentos/LateX docs/Relatorio_1-F2/Relatório.tex" 1698170622 8773 cdfff056f8b402204cd0243db579024d ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -52,11 +52,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1613593815 38841 799d1dd9682a55ce442e10c99777ecc1 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1698169411 162899 515de6df2324cca4eba6407bef60e07c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1698169419 1314405 c9d7ac0883d004a2ddfe22b8a01e060f ""
-  "Relatório.aux" 1698169744 1080 61759d02938f8ccecaa09b1b4678d339 "pdflatex"
-  "Relatório.tex" 1698169743 8748 4023b56d749c6d0c9a06cdb530cb8868 ""
+  "Relatório.aux" 1698170623 1183 0376b5ce3ca1487f3d3c0b8d5c21375d "pdflatex"
+  "Relatório.tex" 1698170622 8773 cdfff056f8b402204cd0243db579024d ""
   (generated)
-  "Relatório.log"
   "Relatório.pdf"
-  "Relatório.aux"
-  "/home/matheus/Documentos/LateX docs/Relatorio_1-F2/Relatório.log"
   "/home/matheus/Documentos/LateX docs/Relatorio_1-F2/Relatório.pdf"
+  "/home/matheus/Documentos/LateX docs/Relatorio_1-F2/Relatório.log"
+  "Relatório.log"
+  "Relatório.aux"

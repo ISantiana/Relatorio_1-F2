@@ -3,11 +3,11 @@
 \usepackage{multicol}
 \usepackage[margin=1in]{geometry}
 \usepackage{amsmath}
-\usepackage{siunitx}  % For consistent unit formatting
+\usepackage{siunitx} 
 
 \pagestyle{fancy}
 \fancyhf{}
-\chead{Física Experimental II • Experimento realizado em 12/05/2023}
+\chead{Física Experimental II • Experimento realizado em 20/10/2023}
 \rfoot{\thepage}
 \renewcommand{\headrulewidth}{0.4pt}
 
@@ -19,7 +19,7 @@
     \normalsize
     \vspace{10pt}
 
-    Matheus Aparecido Souza Silva, João Vitor Costa, Isabela Santana, Gustavo Pereira
+    Matheus Aparecido Souza Silva, Isabela Sant' Ana, Gustavo Peres, João Vitor Costa
     \vspace{5pt}
 
     \textbf{Turma}: TA \textbf{Horário}: 6M23 \textbf{Curso}: Engenharia Elétrica
@@ -41,10 +41,10 @@ O primeiro modelo adotado foi:
 onde $m$ representa a massa do sólido, determinada diretamente utilizando uma balança semi-analítica de resolução 1 g e $V$ representa o volume de água deslocada quando o cilindro é inserido em um béquer graduado com resolução de 5 mL.
 
 \subsection{Modelo 2}
-O terceiro modelo adotado foi:
+O segundo modelo adotado foi:
 
 \begin{align}
-\rho_3 &= \frac{m}{m_a} \rho_a,
+\rho_2 &= \frac{m}{m_a} \rho_a,
 \end{align}
 
 onde $m$ e $m_a$ representam a massa do sólido e a massa de água contida no béquer, respectivamente, determinadas diretamente utilizando uma balança semianalítica de resolução 1 g. $\rho_a$ representa o valor da densidade da água, que é obtida como a razão entre sua massa e seu volume.
@@ -56,7 +56,7 @@ onde $m$ e $m_a$ representam a massa do sólido e a massa de água contida no b�
 O valor de referência da densidade da água é \SI{1}{\gram\per\centi\meter\cubed}. Neste modelo, estamos substituindo a medição direta do volume de água deslocado quando o sólido é inserido no béquer pela medição direta da respectiva massa de água deslocada quando diferentes sólidos são inseridos no béquer.
 
 \subsection{Modelo 3}
-O segundo modelo adotado foi:
+O terceiro modelo adotado foi:
 
 \begin{align}
 \rho_2 &= \frac{4m}{\pi(d_e^2 - d_i^2)h},
@@ -76,36 +76,42 @@ A densidade da água foi obtida como a razão entre sua massa e seu volume:
 Usando a balança e o béquer, obtiveram-se os seguintes resultados de medição:
 
 \begin{align}
-m &= (248.00 \pm 0.58) \, \text{g e } V = (250.0 \pm 2.9) \, \text{cm}^3
+m &= (239.00 \pm 0.58) \, \text{g e } V = (250.0 \pm 2.9) \, \text{cm}^3
 \end{align}
 
 A incerteza deste modelo de medição é dada por:
 
 \begin{align}
 u_{\rho} &= \sqrt{\left(\frac{\partial \rho}{\partial m}\right)^2 \sigma^2_m + \left(\frac{\partial \rho}{\partial V}\right)^2 \sigma^2_V} \\
-&= \sqrt{\left(\frac{1}{\overline{V}}\right)^2 \sigma^2_m + \left(\frac{-\overline{m}}{\overline{V}^2}\right)^2 \sigma^2_V} \nonumber \\
-&= \frac{\overline{m}}{\overline{V}} \sqrt{\left(\frac{\sigma_m}{\overline{m}}\right)^2 + \left(\frac{\sigma_V}{\overline{V}}\right)^2} \nonumber \\
-&= \frac{248}{250} \sqrt{\left(\frac{0.58}{248}\right)^2 + \left(\frac{2.9}{250}\right)^2} \nonumber \\
-&\approx 0.0117 \nonumber
+\end{align}
+
+Porém como a incerteza da massa é desprezível em relação à incerteza do volume o novo modelo do cálculo da incerteza é dado por:
+
+\begin{align}
+u_{\rho} &= \sqrt{\left(\frac{\partial \rho}{\partial V}\right)^2 \sigma^2_V} \\
+&= \sqrt{\left(\frac{-\overline{m}}{\overline{V}^2}\right)^2 \sigma^2_V} \nonumber \\
+&= \frac{\overline{m}}{\overline{V}} \sqrt{\left(\frac{\sigma_V}{\overline{V}}\right)^2} \nonumber \\
+&= \frac{239}{250} \sqrt{\left(\frac{2.9}{250}\right)^2} \nonumber \\
+&\approx 0.011 \nonumber
 \end{align}
 
 Logo, o valor principal será:
 
 \begin{align}
-\rho_{\text{média}} &= \frac{\overline{m}}{\overline{V}} = 0.992 \, \text{g/cm}^3.
+\rho_{\text{média}} &= \frac{\overline{m}}{\overline{V}} = 0.956 \, \text{g/cm}^3.
 \end{align}
 
 Finalmente:
 
 \begin{align}
-\rho &= (0.992 \pm 0.0117) \, \text{g/cm}^3.
+\rho &= (0.956 \pm 0.011) \, \text{g/cm}^3.
 \end{align}
 
 \subsection{Modelo 1}
 Os valores encontrados para a massa $m$ e o volume $V$ referentes ao primeiro modelo experimental foram:
 
 \begin{align}
-m &= (50.00 \pm 0.58) \, \text{g} \quad \text{e} \quad V = (5.0 \pm 2.9) \, \text{cm}^3.
+m &= (300.00 \pm 0.58) \, \text{g} \quad \text{e} \quad V = (30.0 \pm 2.9) \, \text{cm}^3.
 \end{align}
 
 Para ambas as medições, o teste de flutuação de resultados indicou incertezas do tipo B. Assumindo distribuições de probabilidades retangulares para as duas medições, as incertezas foram calculadas de acordo com as expressões:
@@ -123,13 +129,13 @@ u_m &= \frac{1.0}{\sqrt{3}} = 0.58 \, \text{g} \quad \text{e} \quad u_V = \frac{
 Desta maneira, encontramos:
 
 \begin{align}
-\rho_1 &= \frac{m}{V} = (10.0 \pm 5.8) \, \text{g/cm}^3.
+\rho_1 &= \frac{m}{V} = (10.00 \pm 0.97) \, \text{g/cm}^3.
 \end{align}
 
-Onde a incerteza associada a $\rho_1$, $u_{\rho_1}$, foi determinada utilizando a expressão:
+Onde a incerteza associada a $\rho_1$, $u_{\rho_1}$, foi determinada utilizando a expressão a seguir considerando que a incerteza da balança é uma ordem de grandeza menor que a do béquer:
 
 \begin{align}
-u_{\rho_1} &= \frac{\overline{m}}{\overline{V}} \sqrt{\left(\frac{\sigma_m}{\overline{m}}\right)^2 + \left(\frac{\sigma_V}{\overline{V}}\right)^2} = 5.8.
+u_{\rho_1} &= \frac{\overline{m}}{\overline{V}} \sqrt{\left(\frac{\sigma_V}{\overline{V}}\right)^2} = 0.97
 \end{align}
 
 \subsection{Modelo 2}
@@ -148,18 +154,18 @@ Para o segundo modelo experimental, encontramos os seguintes pares $m-m_a$ como 
 Os quais nos fornecem os seguintes resultados para a densidade $\rho_2$:
 
 \begin{align*}
-(8.33 \pm 0.81) \, \text{g/cm}^3 \\
-(8.33 \pm 0.41) \, \text{g/cm}^3 \\
-(8.33 \pm 0.27) \, \text{g/cm}^3 \\
-(8.33 \pm 0.20) \, \text{g/cm}^3 \\
-(8.33 \pm 0.16) \, \text{g/cm}^3 \\
-(8.33 \pm 0.14) \, \text{g/cm}^3
+(7.97 \pm 0.78) \, \text{g/cm}^3 \\
+(7.97 \pm 0.67) \, \text{g/cm}^3 \\
+(7.97 \pm 0.27) \, \text{g/cm}^3 \\
+(7.97 \pm 0.20) \, \text{g/cm}^3 \\
+(7.97 \pm 0.16) \, \text{g/cm}^3 \\
+(7.97 \pm 0.14) \, \text{g/cm}^3
 \end{align*}
 
 Onde a incerteza associada a cada valor encontrado para $\rho_2$, $u_{\rho_2}$, foi determinada utilizando a expressão:
 
 \begin{align}
-u_{\rho_2} &= \sqrt{\left(\frac{\rho_a}{m_a}\right)^2 u^2_m + \left(\frac{-m\rho_a}{m^2_a}\right)^2 u^2_{m_a}}.
+u_{\rho_2} &= \sqrt{\left(\frac{\rho_a}{m_a}\right)^2 u^2_m + \left(\frac{-m\rho_a}{m^2_a}\right)^2 u^2_{m_a}+\left(\frac{m}{m_a}\right)^2 u^2_{\rho_a}}.
 \end{align}
 
 Vale ressaltar que para todas as medições dos pares $m-ma$, o teste de flutuação de resultados indicou incertezas do tipo B, e assumindo distribuições de probabilidades retangulares para as medições, as incertezas foram calculadas de acordo com a expressão:

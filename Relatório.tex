@@ -3,11 +3,12 @@
 \usepackage{multicol}
 \usepackage[margin=1in]{geometry}
 \usepackage{amsmath}
-\usepackage{siunitx} 
+\usepackage{siunitx}
+\usepackage{enumerate}
 
 \pagestyle{fancy}
 \fancyhf{}
-\chead{Física Experimental II • Experimento realizado em 20/10/2023}
+\chead{Física Experimental II • Experimento realizado em 27/10/2023}
 \rfoot{\thepage}
 \renewcommand{\headrulewidth}{0.4pt}
 
@@ -15,7 +16,7 @@
 
 \begin{center}
     \huge
-    \textbf{Determinação da densidade de um sólido}
+    \textbf{Calor específico de um sólido}
     \normalsize
     \vspace{10pt}
 
@@ -29,191 +30,56 @@
 
 \section{Metodologia}
 
-A metodologia utilizada visou determinar a densidade de um cilindro contendo um furo circular no centro de sua base, por meio de três modelos experimentais distintos.
+\subsection{Objetivo}
 
-\subsection{Modelo 1}
-O primeiro modelo adotado foi:
+Neste relatório, descreveremos o experimento realizado para determinar o calor específico de um sólido.
 
-\begin{align}
-\rho_1 &= \frac{m}{V},
-\end{align}
+\subsection{Materiais utilizados e métodos de medição}
 
-onde $m$ representa a massa do sólido, determinada diretamente utilizando uma balança semi-analítica de resolução 1 g e $V$ representa o volume de água deslocada quando o cilindro é inserido em um béquer graduado com resolução de 5 mL.
+\begin{itemize}
+    \item Sólido metálico: A amostra do sólido metálico é o objeto de estudo do experimento. Sua massa é medida com uma balança.
+    \item Calorímetro: O calorímetro é um dispositivo projetado para medir a quantidade de calor envolvida em uma reação ou processo físico. Ele é utilizado para conter a amostra e a água durante o experimento.
+    \item Termômetro: O termômetro é usado para medir a temperatura ambiente da água no calorímetro e a temperatura da água no calorímetro após a amostra ser colocada.
+    \item Fonte de calor: A fonte de calor é utilizada para aquecer a amostra metálica de forma uniforme antes de colocá-la na água do calorímetro.
+    \item Balança: A balança é usada para medir a massa da amostra.
+    \item Água: A água é usada como substância termométrica no calorímetro. Sua massa é medida pela balança e a temperatura pelo termômetro.
+\end{itemize}
 
-\subsection{Modelo 2}
-O segundo modelo adotado foi:
-
-\begin{align}
-\rho_2 &= \frac{m}{m_a} \rho_a,
-\end{align}
-
-onde $m$ e $m_a$ representam a massa do sólido e a massa de água contida no béquer, respectivamente, determinadas diretamente utilizando uma balança semianalítica de resolução 1 g. $\rho_a$ representa o valor da densidade da água, que é obtida como a razão entre sua massa e seu volume.
-
-\begin{equation}
-\rho(m, V) = \frac{m}{V}
-\end{equation}
-
-O valor de referência da densidade da água é \SI{1}{\gram\per\centi\meter\cubed}. Neste modelo, estamos substituindo a medição direta do volume de água deslocado quando o sólido é inserido no béquer pela medição direta da respectiva massa de água deslocada quando diferentes sólidos são inseridos no béquer.
-
-\subsection{Modelo 3}
-O terceiro modelo adotado foi:
-
-\begin{align}
-\rho_2 &= \frac{4m}{\pi(d_e^2 - d_i^2)h},
-\end{align}
-
-onde $m$ representa a massa do sólido, determinada diretamente utilizando uma balança semi-analítica de resolução 1 g, $h$ representa a altura do cilindro, e $d_e$ and $d_i$ representam seus diâmetros externo e interno, respectivamente. As medições de $h$, $d_e$, e $d_i$ foram realizadas utilizando um paquímetro de resolução 0.05 mm.
+No experimento de determinação do calor específico de um sólido, estão envolvidos métodos de medição direta e indireta para obter os dados necessários para calcular o calor específico do sólido.
+Métodos de medição direta: medição de massa e temperatura
+Métodos de medição indireta: cálculo do calor específico do sólido.
 
 \section{Resultados}
+\subsection{Tabela de dados experimentais}
 
-\subsection{Determinação da densidade da água}
-A densidade da água foi obtida como a razão entre sua massa e seu volume:
+\begin{minipage}{\linewidth}
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+    \hline
+    $m_1$(g) & $m_s$(g) & $T_1\,^{\circ}\mathrm{C}$    & $T_2\,^{\circ}\mathrm{C}$ &$T_{\text{eq}},^{\circ}\mathrm{C}$ \\
+    \hline
+    200 $\pm$ & 150 $\pm$   & 25,2 $\pm$  & 90,4 $\pm$  & 29,1 $\pm$   \\
+    \hline
+    200 $\pm$  & 100 $\pm$  & 25,4 $\pm$  & 90,4 $\pm$  & 28,1 $\pm$   \\
+    \hline
+    200 $\pm$ & 50 $\pm$   & 25,9 $\pm$  & 90,3 $\pm$  & 27,3 $\pm$    \\
+    \hline
+\end{tabular}
+\end{minipage}
 
-\begin{align}
-\rho(m, V) &= \frac{m}{V}
-\end{align}
+\subsection{Cálculo do calor específico do sólido a partir dos dados experimentais}
 
-Usando a balança e o béquer, obtiveram-se os seguintes resultados de medição:
+Na primeira tentativa, o cálculo do calor específico do sólido foi de 0,091 $\pm$ alguma incerteza.
 
-\begin{align}
-m &= (239.00 \pm 0.58) \, \text{g e } V = (250.0 \pm 2.9) \, \text{cm}^3
-\end{align}
+Na segunda tentativa, o resultado foi de 0,093 $\pm$ alguma incerteza.
 
-A incerteza deste modelo de medição é dada por:
+E na última tentativa, obtivemos 0,096 $\pm$ alguma incerteza.
 
-\begin{align}
-u_{\rho} &= \sqrt{\left(\frac{\partial \rho}{\partial m}\right)^2 \sigma^2_m + \left(\frac{\partial \rho}{\partial V}\right)^2 \sigma^2_V} \\
-\end{align}
+\subsection{Média dos calores específicos}
 
-Porém como a incerteza da massa é desprezível em relação à incerteza do volume o novo modelo do cálculo da incerteza é dado por:
+A média simples dos valores do item 2.2 é: alguma coisa $\pm$ outra coisa (deu priguiça, calculem ai esse tbm)
 
-\begin{align}
-u_{\rho} &= \sqrt{\left(\frac{\partial \rho}{\partial V}\right)^2 \sigma^2_V} \\
-&= \sqrt{\left(\frac{-\overline{m}}{\overline{V}^2}\right)^2 \sigma^2_V} \nonumber \\
-&= \frac{\overline{m}}{\overline{V}} \sqrt{\left(\frac{\sigma_V}{\overline{V}}\right)^2} \nonumber \\
-&= \frac{239}{250} \sqrt{\left(\frac{2.9}{250}\right)^2} \nonumber \\
-&\approx 0.011 \nonumber
-\end{align}
-
-Logo, o valor principal será:
-
-\begin{align}
-\rho_{\text{média}} &= \frac{\overline{m}}{\overline{V}} = 0.956 \, \text{g/cm}^3.
-\end{align}
-
-Finalmente:
-
-\begin{align}
-\rho &= (0.956 \pm 0.011) \, \text{g/cm}^3.
-\end{align}
-
-\subsection{Modelo 1}
-Os valores encontrados para a massa $m$ e o volume $V$ referentes ao primeiro modelo experimental foram:
-
-\begin{align}
-m &= (300.00 \pm 0.58) \, \text{g} \quad \text{e} \quad V = (30.0 \pm 2.9) \, \text{cm}^3.
-\end{align}
-
-Para ambas as medições, o teste de flutuação de resultados indicou incertezas do tipo B. Assumindo distribuições de probabilidades retangulares para as duas medições, as incertezas foram calculadas de acordo com as expressões:
-
-\begin{align}
-u_m &= \frac{\Delta_{rb}}{\sqrt{3}} \quad \text{e} \quad u_V = \frac{\Delta_{rq}}{\sqrt{3}}.
-\end{align}
-
-Onde $\Delta_{rb}$ e $\Delta_{rq}$ representam as resoluções da balança e do béquer, respectivamente. A resolução da balança é \SI{1}{\gram} e a do béquer é \SI{5}{\milli\liter}, assim:
-
-\begin{align}
-u_m &= \frac{1.0}{\sqrt{3}} = 0.58 \, \text{g} \quad \text{e} \quad u_V = \frac{5.0}{\sqrt{3}} = 2.9 \, \text{cm}^3.
-\end{align}
-
-Desta maneira, encontramos:
-
-\begin{align}
-\rho_1 &= \frac{m}{V} = (10.00 \pm 0.97) \, \text{g/cm}^3.
-\end{align}
-
-Onde a incerteza associada a $\rho_1$, $u_{\rho_1}$, foi determinada utilizando a expressão a seguir considerando que a incerteza da balança é uma ordem de grandeza menor que a do béquer:
-
-\begin{align}
-u_{\rho_1} &= \frac{\overline{m}}{\overline{V}} \sqrt{\left(\frac{\sigma_V}{\overline{V}}\right)^2} = 0.97
-\end{align}
-
-\subsection{Modelo 2}
-
-Para o segundo modelo experimental, encontramos os seguintes pares $m-m_a$ como resultados das medições:
-
-\begin{align*}
-(50.00 \pm 0.58) \, \text{g} & \quad (6.00 \pm 0.58) \, \text{g} \\
-(100.00 \pm 0.58) \, \text{g} & \quad (12.00 \pm 0.58) \, \text{g} \\
-(150.00 \pm 0.58) \, \text{g} & \quad (18.00 \pm 0.58) \, \text{g} \\
-(200.00 \pm 0.58) \, \text{g} & \quad (24.00 \pm 0.58) \, \text{g} \\
-(250.00 \pm 0.58) \, \text{g} & \quad (30.00 \pm 0.58) \, \text{g} \\
-(300.00 \pm 0.58) \, \text{g} & \quad (36.00 \pm 0.58) \, \text{g}
-\end{align*}
-
-Os quais nos fornecem os seguintes resultados para a densidade $\rho_2$:
-
-\begin{align*}
-(7.97 \pm 0.78) \, \text{g/cm}^3 \\
-(7.97 \pm 0.67) \, \text{g/cm}^3 \\
-(7.97 \pm 0.27) \, \text{g/cm}^3 \\
-(7.97 \pm 0.20) \, \text{g/cm}^3 \\
-(7.97 \pm 0.16) \, \text{g/cm}^3 \\
-(7.97 \pm 0.14) \, \text{g/cm}^3
-\end{align*}
-
-Onde a incerteza associada a cada valor encontrado para $\rho_2$, $u_{\rho_2}$, foi determinada utilizando a expressão:
-
-\begin{align}
-u_{\rho_2} &= \sqrt{\left(\frac{\rho_a}{m_a}\right)^2 u^2_m + \left(\frac{-m\rho_a}{m^2_a}\right)^2 u^2_{m_a}+\left(\frac{m}{m_a}\right)^2 u^2_{\rho_a}}.
-\end{align}
-
-Vale ressaltar que para todas as medições dos pares $m-ma$, o teste de flutuação de resultados indicou incertezas do tipo B, e assumindo distribuições de probabilidades retangulares para as medições, as incertezas foram calculadas de acordo com a expressão:
-
-\begin{align}
-u_m &= u_{ma} = \frac{\Delta_{rb}}{\sqrt{3}}.
-\end{align}
-
-Onde $\Delta_{rb}$ representa a resolução da balança utilizada. Como todos os valores encontrados para $\rho_2$ são compatíveis entre si, podemos combiná-los usando uma média ponderada para obter:
-
-\begin{align}
-\rho_2 &= \frac{m\rho_a}{m_a} = (8.333 \pm 0.086) \, \text{g/cm}^3.
-\end{align}
-
-\subsection{Modelo 3}
-
-Para o terceiro modelo experimental, encontramos como resultados das medições:
-
-\begin{align*}
-m &= (50.00 \pm 0.58) \, \text{g} \\
-h &= (7.800 \pm 0.029) \, \text{mm} \\
-d_e &= (33.950 \pm 0.029) \, \text{mm} \\
-d_i &= (3.400 \pm 0.029) \, \text{mm}
-\end{align*}
-
-Para todas as medições, o teste de flutuação de resultados indicou incertezas do tipo B. Assumindo distribuições de probabilidades retangulares para as medições, as incertezas foram calculadas de acordo com as expressões:
-
-\begin{align}
-u_m &= \frac{\Delta_{rb}}{\sqrt{3}}, \quad u_h = u_{de} = u_{di} = \frac{\Delta_{rp}}{\sqrt{3}}.
-\end{align}
-
-Onde $\Delta_{rb}$ and $\Delta_{rp}$ representam as resoluções da balança and do paquímetro, respectivamente. Desta maneira, encontramos:
-
-\begin{align}
-\rho_3 &= \frac{4m}{\pi (d^2_e - d^2_i)h} = (7.15 \pm 0.64) \, \text{g/cm}^3
-\end{align}
-
-\subsection{Análise de compatibilidade}
-
-Finalmente, como os valores encontrados para $\rho_1$, $\rho_2$ e $\rho_3$ são compatíveis entre si, podemos combiná-los usando uma média ponderada para obter:
-
-\begin{align}
-\rho &= (8.309 \pm 0.085) \, \text{g/cm}^3
-\end{align}
-
-\section{Conclusões}
-Com base na análise de dados, pode-se concluir que os três modelos experimentais foram satisfatórios para a determinação da densidade do cilindro, uma vez que os valores encontrados são compatíveis entre si. Ao combinarmos os valores obtidos e consultarmos a tabela de densidades fornecida na apostila, identificamos o material do cilindro como sendo latão recozido, $\rho_{\text{ref}} = 8.4$. Contudo, ao analisarmos individualmente cada resultado, encontramos erros relativos de 19.0%, 15.0% e 1.1% para cada modelo, respectivamente. Isso sugere maior efetividade do terceiro modelo, quando utilizamos instrumentos de medição com as resoluções descritas acima.
+\section{Discução sobre os resultados obtidos}
 
 \end{multicols}
-
 \end{document}
